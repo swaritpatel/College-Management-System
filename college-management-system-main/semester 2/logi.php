@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login / signup </title>
+
+</head>
+<link rel="stylesheet" href="login.css">
+<body>
+<h1 style="text-align: center;">Login</h1> 
+<h3 style="text-align: center;">Get access to your Orders, Wishlist and Recommendations</h3> 
+<div class="form">
+   <form action="asmitweb/homepage.php" method="POST">
+       <b>User name : </b><input type="text" name="name" size="20" maxlength="15"  placeholder="Enter Your User Name." required/>
+     
+       <b>Password : </b> <input type="Password" name="pass" size="20"  placeholder="Enter your password"/>
+       <div class="sub">
+       <input type="submit" value="Login" onclick="check(this.form)"/>
+       <a href="signup.html" onclick="check1()">New to College? Create an account</a>
+    </div>
+     
+
+   </form>
+   <script language="javascript">
+function check(form)
+{
+    if(form.name.value == "ashish" && form.pass.value =="1234")
+    {
+       window.open("/asmitweb/home1.php")
+    }
+    else{
+        alert("username and password didn't match")
+    }
+}
+function check1()
+{
+    window.open("/semester/signup.php")
+}
+
+</script>
+</div>
+</body>
+</html>

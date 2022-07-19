@@ -1,0 +1,18 @@
+
+
+
+***************** GROUP 6 ******************
+COLLEGE MANAGEMENT SYSTEM
+
+
+
+BT20CSE093 SWARIT DEEPAK PATEL
+BT20CSE205 ASMIT RAJ
+BT20CSE112 Shantanu Nishikant Gaikwad
+BT20CSE045 ARJUN KUMAR	
+BT20CSE199 Abhishek Sharma
+BT20CSE167 KHUSHIRAM MEENA
+
+****LOGIN DETAILS****
+userid - ashish
+pass.  - 1234
